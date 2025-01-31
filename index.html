@@ -9,17 +9,86 @@
   <!-- favicon -->
   <link rel="shortcut icon" href="./assets/healthy.png" type="image/x-icon">
 
+  <!-- font awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   <!--daisyui and tailwindcss cdn-->
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
 
+  <!-- customize tailwindcss -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            primary: '#179800',
+            secondary: '#EFEBE3',
+            black: '#111111',
+            white: '#ffffff',
+          }
+        }
+      }
+    }
+  </script>
+
+
 </head>
 
 <body>
-  <header></header>
-  <main></main>
-  <footer></footer>
+  <header class="container mx-auto px-4 md:px-8">
 
+    <div class="navbar bg-secondary">
+      <div class="navbar-start pl-4">
+
+        <img class="h-12 lg:h-16" src="./assets/logo-header.png" alt="">
+
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li><a class="text-xl text-[#000814]">Product</a></li>
+          <li><a class="text-xl text-[#000814]">Services</a></li>
+          <li><a class="text-xl text-[#000814]">Contact us</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end space-x-4">
+
+        <div><i class="text-xl hidden lg:flex fa-solid fa-magnifying-glass"></i></div>
+        <div><i class="text-xl hidden lg:flex fa-solid fa-cart-shopping"></i></div>
+        <div class="text-xl hidden lg:flex btn border border-primary text-black">Login</div>
+        <div class="text-xl hidden lg:flex btn bg-primary text-white">Register</div>
+
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+              class="inline-block h-5 w-5 stroke-current">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+
+
+          </div>
+
+          <ul tabindex="0"
+            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-auto p-3 shadow relative right-0">
+
+            <li><a>Product</a></li>
+            <li><a>Services</a></li>
+            <li><a>Contact us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+  </header>
+  <main>
+
+  </main>
+  <footer></footer>
 </body>
 
 </html>
