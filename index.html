@@ -40,9 +40,10 @@
 
 </head>
 
-<body class="space-y-12 lg:space-y-32">
-
-  <header class="container  bg-base-200 mx-auto px-4 md:px-8 space-y-8 md:space-y-12 lg:space-y-16">
+<body class="">
+  <!-- space-y-12 lg:space-y-32 -->
+  <header
+    class="border-2 container  bg-base-200 mx-auto px-4 md:px-8 space-y-8 md:space-y-12 lg:space-y-16 mb-12 md:mb-32">
     <!-- navbar section  -->
     <div class="navbar border-b lg:border-b-0 border-primary">
       <div class="navbar-start pl-4">
@@ -162,10 +163,10 @@
   </header>
 
 
-  <main class="container mx-auto space-y-12 lg:space-y-32">
+  <main class="container mx-auto ">
     <!-- -------------------------------------- -->
     <!-- service section  start-->
-    <section class="px-8 md:px-12 lg:px-24 py-16">
+    <section class="mb-12 md:mb-32 px-8 md:px-12 lg:px-24 py-16 border-2">
 
       <h3 class="text-2xl md:text-4xl pb-8 md:pb-12 text-primary font-semibold">Services</h3>
       <div class="max-auto grid grid-cols-1 md:grid-cols-3 justify-between gap-6">
@@ -224,7 +225,7 @@
 
     <!-- --------------------------------------- -->
     <!-- Popular Products section start -->
-    <section class="bg-base-200 border px-4 md:px-8 py-16">
+    <section class="mb-12 md:mb-32 bg-base-200 border px-4 md:px-8 py-16 border-2">
       <h3 class="text-2xl md:text-4xl pb-8 md:pb-12 text-primary font-semibold">Popular Products</h3>
 
       <!-- Popular products content  -->
@@ -402,46 +403,113 @@
     <!-- ------------------------------------------- -->
     <!-- Arrival & Offers section start-->
 
-    <section class="px-8 md:px-12 lg:px-24 py-16">
-      <h3 class="text-2xl md:text-4xl pb-8 md:pb-12 text-primary font-semibold">Arrival & Offers</h3>
-      <!-- Arrival & Offers container -->
-      <div class="flex flex-col md:flex-row gap-6">
+    <section class="px-8 md:px-12 lg:px-24 border-2 ">
 
-        <!-- left Arrival & Offers card  -->
-        <div
-          class="relative bg-[#115414] rounded-3xl w-full md:w-3/5 flex justify-between pl-2 md:pl-8 py-8 max-h-96 shadow-xl">
-          <div class="flex flex-col justify-start space-y-4 lg:space-y-8">
-            <img class="md:mb-2" src="./assets/dawat-logo.png" alt="">
-            <h4 class="btn border-none bg-[#63B76D] text-xs font-semibold text-[#FFFFFF] px-3 py-2">india-gate-mock-up
-            </h4>
-            <h2 class="text-white text-xl font-semibold leading-6">UP to <strong>20% OFF</strong></h2>
-          </div>
-          <figure class="flex place-items-end">
-            <img class="" src="./assets/dawat-mock-up.png" alt="">
-          </figure>
-        </div>
+      <div class="">
+        <h3 class="text-2xl md:text-4xl pb-8 md:pb-12 text-primary font-semibold">Arrival & Offers</h3>
+        <!-- Arrival & Offers container -->
+        <div class="flex flex-col md:flex-row gap-6">
 
-        <!-- right Arrival & Offers card  -->
-        <div
-          class="bg-[#102861] rounded-3xl w-full md:w-2/5 flex justify-between px-2 md:px-4 lg:px-8 py-8 max-h-96 shadow-xl">
-          <div class="flex flex-col justify-start space-y-4 lg:space-y-6">
-            <img class="md:mb-2 w-[96px] h-[80px]" src="./assets/india-gate-logo.png" alt="">
-            <h4 class="btn border-none bg-[#2A4D97] text-xs font-semibold text-[#FFFFFF] px-3 py-2">World’s No.1 Rice
-            </h4>
-            <h2 class="text-white text-xl font-semibold leading-6">UP to <strong>40% OFF</strong></h2>
+          <!-- left Arrival & Offers card  -->
+          <div
+            class="relative bg-[#115414] rounded-3xl w-full md:w-3/5 flex justify-between pl-2 md:pl-8 py-8 max-h-96 shadow-xl">
+            <div class="flex flex-col justify-start space-y-4 lg:space-y-8">
+              <img class="md:mb-2" src="./assets/dawat-logo.png" alt="">
+              <h4 class="btn border-none bg-[#63B76D] text-xs font-semibold text-[#FFFFFF] px-3 py-2">india-gate-mock-up
+              </h4>
+              <h2 class="text-white text-xl font-semibold leading-6">UP to <strong>20% OFF</strong></h2>
+            </div>
+            <figure class="flex place-items-end">
+              <img class="" src="./assets/dawat-mock-up.png" alt="">
+            </figure>
           </div>
-          <figure class="flex place-items-end">
-            <img class="" src="./assets/india-gate-mock-up.png" alt="">
-          </figure>
+
+          <!-- right Arrival & Offers card  -->
+          <div
+            class="bg-[#102861] rounded-3xl w-full md:w-2/5 flex justify-between px-2 md:px-4 lg:px-8 py-8 max-h-96 shadow-xl">
+            <div class="flex flex-col justify-start space-y-4 lg:space-y-6">
+              <img class="md:mb-2 w-[96px] h-[80px]" src="./assets/india-gate-logo.png" alt="">
+              <h4 class="btn border-none bg-[#2A4D97] text-xs font-semibold text-[#FFFFFF] px-3 py-2">World’s No.1 Rice
+              </h4>
+              <h2 class="text-white text-xl font-semibold leading-6">UP to <strong>40% OFF</strong></h2>
+            </div>
+            <figure class="flex place-items-end">
+              <img class="" src="./assets/india-gate-mock-up.png" alt="">
+            </figure>
+
+          </div>
 
         </div>
 
       </div>
 
+      <!--Get Grocery  absolute section  -->
+      <div class="relative -bottom-[180px] bg-base-200 rounded-2xl md:rounded-3xl">
+        <div class="hero-content flex-col md:flex-row ">
+          <figure class="flex-1 border-none">
+            <img src="./assets/vegetable-busket.png" alt="vegetable-busket">
+          </figure>
+
+          <div class="card w-full max-w-sm shrink-0 flex-1">
+
+            <form class="card-body">
+              <div class="text-center lg:text-left">
+                <h2 class="text-xl md:text-4xl font-bold text-primary md:text-[#003049] text-center md:text-start">
+                  Get
+                  Grocery News!</h2>
+                <p class="py-6">
+                  Exclusive training tips, ticks, product deals and more.
+                </p>
+              </div>
+
+              <div class="form-control">
+                <input type="email" placeholder="Enter Email" class="input input-bordered" required />
+              </div>
+
+              <div class="form-control mt-6">
+                <button class="btn bg-primary ">Subscribe</button>
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+
+
     </section>
 
+
   </main>
-  <footer></footer>
+
+
+  <footer
+    class="footer bg-primary text-base-content px-8 md:px-12 lg:px-24 pt-[220px] pb-[100px] md:pb-[120px] min-h-[500px] md:flex justify-between items-end container mx-auto">
+    <nav>
+      <img src="./assets/logo-footer.png" alt="logo.png">
+      <p class="text-xl text-[#c2c5aa]">Discover a world of treats, toys, and <br> essentials handpicked for your furry
+        friends
+      </p>
+    </nav>
+    <nav>
+
+      <a class="link link-hover text-xl text-[#c2c5aa]">Product</a>
+      <a class="link link-hover text-xl text-[#c2c5aa]">Services</a>
+      <a class="link link-hover text-xl text-[#c2c5aa]">Contact us</a>
+
+    </nav>
+    <nav>
+      <h6 class="footer-title text-xl text-white">Follow Us</h6>
+      <div class="grid grid-flow-col gap-7 p-2 rounded-lg">
+        <img class="text-white" src="./assets/facebook.png" alt="fb">
+        <img src="./assets/instagram.png" alt="in">
+        <img src="./assets/linkedin.png" alt="in">
+        <img src="./assets/youtube.png" alt="yt">
+      </div>
+    </nav>
+  </footer>
+
+
+
 </body>
 
 </html>
