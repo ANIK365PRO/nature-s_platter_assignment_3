@@ -9,6 +9,13 @@
   <!-- favicon -->
   <link rel="shortcut icon" href="./assets/healthy.png" type="image/x-icon">
 
+  <!-- font sora and popins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap"
+    rel="stylesheet">
+
   <!-- font awesome cdn -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
@@ -29,8 +36,12 @@
             secondary: '#EFEBE3',
             black: '#111111',
             white: '#ffffff',
-          }
 
+          },
+          fontFamily: {
+            sora: ['Sora', 'sans-serif'],
+            poppins: ['Poppins', 'sans-serif'],
+          },
         }
       }
     }
@@ -40,7 +51,7 @@
 
 </head>
 
-<body class="">
+<body class="font-sora">
   <!-- space-y-12 lg:space-y-32 -->
   <header
     class="border-2 container  bg-base-200 mx-auto px-4 md:px-8 space-y-8 md:space-y-12 lg:space-y-16 mb-12 md:mb-32">
@@ -237,7 +248,7 @@
 
           <div class="p-4 md:p-12 lg:p-6 space-y-4 md:space-y-8 lg:space-y-4">
 
-            <h3 class="text-2xl md:text-4xl text-white font-bold">30% off</h3>
+            <h3 class="text-2xl md:text-4xl text-white font-bold font-poppins">30% off</h3>
             <p>Discover a world of treats, toys and <br> essentials handpicked for</p>
             <button class="btn bg-white cursor-pointer">Buy Now</button>
           </div>
@@ -417,7 +428,7 @@
               <img class="md:mb-2" src="./assets/dawat-logo.png" alt="">
               <h4 class="btn border-none bg-[#63B76D] text-xs font-semibold text-[#FFFFFF] px-3 py-2">india-gate-mock-up
               </h4>
-              <h2 class="text-white text-xl font-semibold leading-6">UP to <strong>20% OFF</strong></h2>
+              <h2 class="text-white text-xl font-semibold leading-6 font-poppins">UP to <strong>20% OFF</strong></h2>
             </div>
             <figure class="flex place-items-end">
               <img class="" src="./assets/dawat-mock-up.png" alt="">
@@ -431,7 +442,7 @@
               <img class="md:mb-2 w-[96px] h-[80px]" src="./assets/india-gate-logo.png" alt="">
               <h4 class="btn border-none bg-[#2A4D97] text-xs font-semibold text-[#FFFFFF] px-3 py-2">World’s No.1 Rice
               </h4>
-              <h2 class="text-white text-xl font-semibold leading-6">UP to <strong>40% OFF</strong></h2>
+              <h2 class="text-white text-xl font-semibold leading-6 font-poppins">UP to <strong>40% OFF</strong></h2>
             </div>
             <figure class="flex place-items-end">
               <img class="" src="./assets/india-gate-mock-up.png" alt="">
